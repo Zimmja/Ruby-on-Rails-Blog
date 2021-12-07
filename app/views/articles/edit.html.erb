@@ -1,0 +1,8 @@
+<h1>Edit <%= @article.title %></h1>
+
+<%= render "form", article: @article %>
+
+<ul>
+  <li><%= link_to "Back", @article %></li>
+  <li><%= link_to "Home", articles_path %></li>
+</ul>
